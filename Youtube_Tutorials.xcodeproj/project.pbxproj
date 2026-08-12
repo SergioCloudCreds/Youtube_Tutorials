@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4920C48C302CB22500C82A55 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920C48B302CB22500C82A55 /* TextView.swift */; };
 		49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */; };
 		49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1F8F13023C1790003C1A2 /* ContentView.swift */; };
 		49D1F8F43023C17D0003C1A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1F8F33023C17D0003C1A2 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4920C48B302CB22500C82A55 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		49D1F8EC3023C1790003C1A2 /* Youtube_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_TutorialsApp.swift; sourceTree = "<group>"; };
 		49D1F8F13023C1790003C1A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */,
 				49D1F8F13023C1790003C1A2 /* ContentView.swift */,
+				4920C48B302CB22500C82A55 /* TextView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4920C48C302CB22500C82A55 /* TextView.swift in Sources */,
 				49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */,
 				49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */,
 			);
@@ -269,6 +273,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube_Tutorials/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Burger King iOS app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Welele.Youtube-Tutorials";
+				PRODUCT_BUNDLE_IDENTIFIER = "BurgerKing.Youtube-Tutorials";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,6 +303,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube_Tutorials/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Burger King iOS app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Welele.Youtube-Tutorials";
+				PRODUCT_BUNDLE_IDENTIFIER = "BurgerKing.Youtube-Tutorials";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
