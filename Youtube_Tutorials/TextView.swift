@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TextView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Mega Whopper"/*@END_MENU_TOKEN@*/)
+        Text("Mega Whopper, Double Triple, Counter whopper")
 //            .font(.headline)
 //            .fontWeight(.heavy)
 //            .fontWeight(.black)
@@ -17,7 +17,11 @@ struct TextView: View {
             .underline(true, color: Color.red)
             .italic()
             .font(.system(size:40, weight: .black, design: .rounded))
-        
+            .kerning(1.0)
+            .baselineOffset(30.0)
+            //.multilineTextAlignment(.trailing)
+            .frame(width: 250, height: 250, alignment: .bottom)
+            .minimumScaleFactor(0.5)
     }
 }
 

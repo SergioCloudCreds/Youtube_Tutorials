@@ -273,7 +273,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube_Tutorials/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Burger King iOS app";
+				INFOPLIST_KEY_CFBundleDisplayName = "Burger King Menu";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,7 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube_Tutorials/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Burger King iOS app";
+				INFOPLIST_KEY_CFBundleDisplayName = "Burger King Menu";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
