@@ -12,7 +12,7 @@ struct HomepageViewBK_: View {
         ZStack{
             Color("CreamyMayoColor")
             
-            Text("holo world")
+            Text("hola world")
             
         }
     }
