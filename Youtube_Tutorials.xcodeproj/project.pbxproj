@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4908C8E030348C1400A3D11F /* BackgroundAndOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */; };
+		4908C8E23034991D00A3D11F /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8E13034991D00A3D11F /* StacksView.swift */; };
 		49150E2E30331CF1002F2FD7 /* ColorGradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49150E2D30331CF1002F2FD7 /* ColorGradientsView.swift */; };
 		4920C48C302CB22500C82A55 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920C48B302CB22500C82A55 /* TextView.swift */; };
 		4920C48E3032E4B900C82A55 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920C48D3032E4B900C82A55 /* ShapeView.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayView.swift; sourceTree = "<group>"; };
+		4908C8E13034991D00A3D11F /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 		49150E2D30331CF1002F2FD7 /* ColorGradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGradientsView.swift; sourceTree = "<group>"; };
 		4920C48B302CB22500C82A55 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		4920C48D3032E4B900C82A55 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				496EE2C330338C880097DFCB /* IconsView.swift */,
 				49B0F51C303450E8007AAE2E /* ImagesView.swift */,
 				49B0F51E303454C9007AAE2E /* FrameView.swift */,
+				4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */,
+				4908C8E13034991D00A3D11F /* StacksView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -168,9 +174,11 @@
 				4920C48C302CB22500C82A55 /* TextView.swift in Sources */,
 				49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */,
 				496F96E3303301C7002C87F7 /* HomepageViewBK .swift in Sources */,
+				4908C8E23034991D00A3D11F /* StacksView.swift in Sources */,
 				4920C48E3032E4B900C82A55 /* ShapeView.swift in Sources */,
 				49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */,
 				49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */,
+				4908C8E030348C1400A3D11F /* BackgroundAndOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
