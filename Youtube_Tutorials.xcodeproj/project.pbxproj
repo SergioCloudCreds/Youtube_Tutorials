@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4908C8E030348C1400A3D11F /* BackgroundAndOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */; };
 		4908C8E23034991D00A3D11F /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8E13034991D00A3D11F /* StacksView.swift */; };
+		4908C8E63034E7C600A3D11F /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8E53034E7C600A3D11F /* PaddingView.swift */; };
 		49150E2E30331CF1002F2FD7 /* ColorGradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49150E2D30331CF1002F2FD7 /* ColorGradientsView.swift */; };
 		4920C48C302CB22500C82A55 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920C48B302CB22500C82A55 /* TextView.swift */; };
 		4920C48E3032E4B900C82A55 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920C48D3032E4B900C82A55 /* ShapeView.swift */; };
+		4964379E3036211900DB8B2C /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964379D3036211900DB8B2C /* SpacersView.swift */; };
+		496437A030362D4800DB8B2C /* InitializerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964379F30362D4800DB8B2C /* InitializerView.swift */; };
 		496EE2C430338C890097DFCB /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EE2C330338C880097DFCB /* IconsView.swift */; };
-		496F96E3303301C7002C87F7 /* HomepageViewBK .swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F96E2303301C6002C87F7 /* HomepageViewBK .swift */; };
 		496F96E5303301F4002C87F7 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F96E4303301F4002C87F7 /* ColorsView.swift */; };
 		49B0F51D303450E8007AAE2E /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0F51C303450E8007AAE2E /* ImagesView.swift */; };
 		49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0F51E303454C9007AAE2E /* FrameView.swift */; };
@@ -26,11 +28,13 @@
 /* Begin PBXFileReference section */
 		4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayView.swift; sourceTree = "<group>"; };
 		4908C8E13034991D00A3D11F /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
+		4908C8E53034E7C600A3D11F /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 		49150E2D30331CF1002F2FD7 /* ColorGradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGradientsView.swift; sourceTree = "<group>"; };
 		4920C48B302CB22500C82A55 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		4920C48D3032E4B900C82A55 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		4964379D3036211900DB8B2C /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
+		4964379F30362D4800DB8B2C /* InitializerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerView.swift; sourceTree = "<group>"; };
 		496EE2C330338C880097DFCB /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; };
-		496F96E2303301C6002C87F7 /* HomepageViewBK .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomepageViewBK .swift"; sourceTree = "<group>"; };
 		496F96E4303301F4002C87F7 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 		49B0F51C303450E8007AAE2E /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		49B0F51E303454C9007AAE2E /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
@@ -72,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */,
-				496F96E2303301C6002C87F7 /* HomepageViewBK .swift */,
 				49D1F8F13023C1790003C1A2 /* ContentView.swift */,
 				4920C48B302CB22500C82A55 /* TextView.swift */,
 				4920C48D3032E4B900C82A55 /* ShapeView.swift */,
@@ -83,6 +86,9 @@
 				49B0F51E303454C9007AAE2E /* FrameView.swift */,
 				4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */,
 				4908C8E13034991D00A3D11F /* StacksView.swift */,
+				4908C8E53034E7C600A3D11F /* PaddingView.swift */,
+				4964379D3036211900DB8B2C /* SpacersView.swift */,
+				4964379F30362D4800DB8B2C /* InitializerView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -167,18 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4964379E3036211900DB8B2C /* SpacersView.swift in Sources */,
 				49150E2E30331CF1002F2FD7 /* ColorGradientsView.swift in Sources */,
 				496EE2C430338C890097DFCB /* IconsView.swift in Sources */,
 				49B0F51D303450E8007AAE2E /* ImagesView.swift in Sources */,
 				496F96E5303301F4002C87F7 /* ColorsView.swift in Sources */,
 				4920C48C302CB22500C82A55 /* TextView.swift in Sources */,
 				49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */,
-				496F96E3303301C7002C87F7 /* HomepageViewBK .swift in Sources */,
 				4908C8E23034991D00A3D11F /* StacksView.swift in Sources */,
 				4920C48E3032E4B900C82A55 /* ShapeView.swift in Sources */,
 				49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */,
 				49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */,
+				496437A030362D4800DB8B2C /* InitializerView.swift in Sources */,
 				4908C8E030348C1400A3D11F /* BackgroundAndOverlayView.swift in Sources */,
+				4908C8E63034E7C600A3D11F /* PaddingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,19 +317,17 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube_Tutorials/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Burger King Menu";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tutorial Chronicles";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BurgerKing.Youtube-Tutorials";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tutorial.Youtube-Tutorials";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,19 +345,17 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube_Tutorials/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Burger King Menu";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tutorial Chronicles";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BurgerKing.Youtube-Tutorials";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tutorial.Youtube-Tutorials";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
