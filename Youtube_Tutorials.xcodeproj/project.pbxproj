@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4906B315303D8BA8007E0E22 /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4906B314303D8BA8007E0E22 /* ForEachView.swift */; };
+		4906B317303D9BD0007E0E22 /* ScrollViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4906B316303D9BD0007E0E22 /* ScrollViewView.swift */; };
 		4908C8E030348C1400A3D11F /* BackgroundAndOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */; };
 		4908C8E23034991D00A3D11F /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8E13034991D00A3D11F /* StacksView.swift */; };
 		4908C8E63034E7C600A3D11F /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908C8E53034E7C600A3D11F /* PaddingView.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4906B314303D8BA8007E0E22 /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
+		4906B316303D9BD0007E0E22 /* ScrollViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView.swift; sourceTree = "<group>"; };
 		4908C8DF30348C1300A3D11F /* BackgroundAndOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayView.swift; sourceTree = "<group>"; };
 		4908C8E13034991D00A3D11F /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 		4908C8E53034E7C600A3D11F /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				4908C8E53034E7C600A3D11F /* PaddingView.swift */,
 				4964379D3036211900DB8B2C /* SpacersView.swift */,
 				4964379F30362D4800DB8B2C /* InitializerView.swift */,
+				4906B314303D8BA8007E0E22 /* ForEachView.swift */,
+				4906B316303D9BD0007E0E22 /* ScrollViewView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -177,8 +183,10 @@
 				49150E2E30331CF1002F2FD7 /* ColorGradientsView.swift in Sources */,
 				496EE2C430338C890097DFCB /* IconsView.swift in Sources */,
 				49B0F51D303450E8007AAE2E /* ImagesView.swift in Sources */,
+				4906B317303D9BD0007E0E22 /* ScrollViewView.swift in Sources */,
 				496F96E5303301F4002C87F7 /* ColorsView.swift in Sources */,
 				4920C48C302CB22500C82A55 /* TextView.swift in Sources */,
+				4906B315303D8BA8007E0E22 /* ForEachView.swift in Sources */,
 				49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */,
 				4908C8E23034991D00A3D11F /* StacksView.swift in Sources */,
 				4920C48E3032E4B900C82A55 /* ShapeView.swift in Sources */,
