@@ -26,6 +26,8 @@
 		49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1F8F13023C1790003C1A2 /* ContentView.swift */; };
 		49D1F8F43023C17D0003C1A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1F8F33023C17D0003C1A2 /* Assets.xcassets */; };
 		49D1F8F73023C17D0003C1A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1F8F63023C17D0003C1A2 /* Preview Assets.xcassets */; };
+		49ED1F91304991BF009A1552 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED1F90304991BF009A1552 /* SafeAreaView.swift */; };
+		49ED1F9330499450009A1552 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED1F9230499450009A1552 /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		49D1F8F13023C1790003C1A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49D1F8F33023C17D0003C1A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D1F8F63023C17D0003C1A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49ED1F90304991BF009A1552 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
+		49ED1F9230499450009A1552 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				4906B314303D8BA8007E0E22 /* ForEachView.swift */,
 				4906B316303D9BD0007E0E22 /* ScrollViewView.swift */,
 				49AF37D53045848D003A81A0 /* GridView.swift */,
+				49ED1F90304991BF009A1552 /* SafeAreaView.swift */,
+				49ED1F9230499450009A1552 /* ButtonsView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -198,7 +204,9 @@
 				49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */,
 				496437A030362D4800DB8B2C /* InitializerView.swift in Sources */,
 				4908C8E030348C1400A3D11F /* BackgroundAndOverlayView.swift in Sources */,
+				49ED1F91304991BF009A1552 /* SafeAreaView.swift in Sources */,
 				4908C8E63034E7C600A3D11F /* PaddingView.swift in Sources */,
+				49ED1F9330499450009A1552 /* ButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
