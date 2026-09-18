@@ -33,6 +33,9 @@
 		49622152305C231A008EA471 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49622151305C231A008EA471 /* TabView.swift */; };
 		4964379E3036211900DB8B2C /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964379D3036211900DB8B2C /* SpacersView.swift */; };
 		496437A030362D4800DB8B2C /* InitializerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964379F30362D4800DB8B2C /* InitializerView.swift */; };
+		49689638305D298100A39099 /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49689637305D298100A39099 /* DarkModeView.swift */; };
+		4968963A305D31B200A39099 /* DocumentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49689639305D31B200A39099 /* DocumentationView.swift */; };
+		4968963C305D41D000A39099 /* OnAppearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968963B305D41D000A39099 /* OnAppearView.swift */; };
 		496B576430586FC10030C0D4 /* ConditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B576330586FC10030C0D4 /* ConditionalView.swift */; };
 		496B576630589A410030C0D4 /* TernaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B576530589A410030C0D4 /* TernaryView.swift */; };
 		496B576830589D360030C0D4 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B576730589D360030C0D4 /* AnimationView.swift */; };
@@ -82,6 +85,9 @@
 		49622151305C231A008EA471 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		4964379D3036211900DB8B2C /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		4964379F30362D4800DB8B2C /* InitializerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerView.swift; sourceTree = "<group>"; };
+		49689637305D298100A39099 /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
+		49689639305D31B200A39099 /* DocumentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationView.swift; sourceTree = "<group>"; };
+		4968963B305D41D000A39099 /* OnAppearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearView.swift; sourceTree = "<group>"; };
 		496B576330586FC10030C0D4 /* ConditionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalView.swift; sourceTree = "<group>"; };
 		496B576530589A410030C0D4 /* TernaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryView.swift; sourceTree = "<group>"; };
 		496B576730589D360030C0D4 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
@@ -178,7 +184,10 @@
 				4962214B305BE744008EA471 /* DatePickerView.swift */,
 				4962214D305C1A1E008EA471 /* StepperView.swift */,
 				4962214F305C1E58008EA471 /* SliderView.swift */,
+				4968963B305D41D000A39099 /* OnAppearView.swift */,
 				49622151305C231A008EA471 /* TabView.swift */,
+				49689637305D298100A39099 /* DarkModeView.swift */,
+				49689639305D31B200A39099 /* DocumentationView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -274,6 +283,7 @@
 				49253514305AC08C00E5D6C0 /* ContextMenuView.swift in Sources */,
 				49345C163053F806002687EC /* StateView.swift in Sources */,
 				496EE2C430338C890097DFCB /* IconsView.swift in Sources */,
+				49689638305D298100A39099 /* DarkModeView.swift in Sources */,
 				49B0F51D303450E8007AAE2E /* ImagesView.swift in Sources */,
 				499AC1D23059384C00DB9DC1 /* AnimationTimingView.swift in Sources */,
 				4906B317303D9BD0007E0E22 /* ScrollViewView.swift in Sources */,
@@ -285,6 +295,7 @@
 				4920C48C302CB22500C82A55 /* TextView.swift in Sources */,
 				4906B315303D8BA8007E0E22 /* ForEachView.swift in Sources */,
 				4925351A305B326800E5D6C0 /* ToggleView.swift in Sources */,
+				4968963A305D31B200A39099 /* DocumentationView.swift in Sources */,
 				49622152305C231A008EA471 /* TabView.swift in Sources */,
 				49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */,
 				4908C8E23034991D00A3D11F /* StacksView.swift in Sources */,
@@ -297,6 +308,7 @@
 				496B576830589D360030C0D4 /* AnimationView.swift in Sources */,
 				49253516305AC64500E5D6C0 /* TextFieldView.swift in Sources */,
 				49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */,
+				4968963C305D41D000A39099 /* OnAppearView.swift in Sources */,
 				49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */,
 				49253518305B27C600E5D6C0 /* TextEditiorView.swift in Sources */,
 				496437A030362D4800DB8B2C /* InitializerView.swift in Sources */,
