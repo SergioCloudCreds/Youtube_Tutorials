@@ -11,7 +11,7 @@ import SwiftUI
 struct Youtube_TutorialsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppStorageView()
         }
     }
 }

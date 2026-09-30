@@ -55,6 +55,7 @@
 		49AF37D63045848D003A81A0 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF37D53045848D003A81A0 /* GridView.swift */; };
 		49B0F51D303450E8007AAE2E /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0F51C303450E8007AAE2E /* ImagesView.swift */; };
 		49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0F51E303454C9007AAE2E /* FrameView.swift */; };
+		49BD7103306D586A0029BEBE /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7102306D586A0029BEBE /* AppStorageView.swift */; };
 		49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */; };
 		49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1F8F13023C1790003C1A2 /* ContentView.swift */; };
 		49D1F8F43023C17D0003C1A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1F8F33023C17D0003C1A2 /* Assets.xcassets */; };
@@ -112,6 +113,7 @@
 		49AF37D53045848D003A81A0 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		49B0F51C303450E8007AAE2E /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		49B0F51E303454C9007AAE2E /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		49BD7102306D586A0029BEBE /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		49D1F8EC3023C1790003C1A2 /* Youtube_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_TutorialsApp.swift; sourceTree = "<group>"; };
 		49D1F8F13023C1790003C1A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				49689641305D797000A39099 /* CustomModelsView.swift */,
 				4909C49130611FC500F9DB72 /* ViewModelView.swift */,
 				4970D6DA30667185009EFF9F /* EnvironmentObject.swift */,
+				49BD7102306D586A0029BEBE /* AppStorageView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -327,6 +330,7 @@
 				49253516305AC64500E5D6C0 /* TextFieldView.swift in Sources */,
 				49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */,
 				4968963C305D41D000A39099 /* OnAppearView.swift in Sources */,
+				49BD7103306D586A0029BEBE /* AppStorageView.swift in Sources */,
 				49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */,
 				49253518305B27C600E5D6C0 /* TextEditiorView.swift in Sources */,
 				4970D6DB30667185009EFF9F /* EnvironmentObject.swift in Sources */,
