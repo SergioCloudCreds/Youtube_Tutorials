@@ -8,20 +8,24 @@
 import SwiftUI
 
 struct AppStorageView: View {
-    
-    @State var currentUserName: String?
+     
+    @AppStorage("name") var currentUserName: String?
     
     var body: some View {
         VStack(spacing: 20){
             Text(currentUserName ?? "Add Name Here " )
             
-            Button("SAVE") {
-                currentUserName = "Nick"
-            }
-            
             if let name = currentUserName {
                 Text(name)
             }
+            
+            Button("SAVE") {
+                let name: String = "Nick"
+                currentUserName = name
+            }
+        }
+        .onAppear{
+            currentUserName = UserDefaults.standard.string(forKey: "name")
         }
     }
 }
