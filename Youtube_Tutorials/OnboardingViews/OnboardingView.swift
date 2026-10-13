@@ -161,19 +161,26 @@ extension OnboardingView {
         
         VStack(spacing: 40){
             Spacer()
-            Text("What's Your Gender?")
+            Text(gender.count > 1 ? gender : "Select A Gender.")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
                 .multilineTextAlignment(.center)
+            
             Picker(selection: $gender) {
-                Text("Male").tag(1)
-                Text("Female").tag(2)
+                Text("Male").tag("Male)
+                Text("Female").tag("Female")
+                Text("Rather Not Say").tag("Rather Not Say")
                 
             } label: {
                 Text("Select A Gender")
                     .font(.headline)
-                    .foregroundColor(.white)
+                    .foregroundColor(.purple)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.white)
+                    .cornerRadius(10)
+                
             }
             .pickerStyle(MenuPickerStyle())
            Spacer()
