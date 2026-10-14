@@ -16,7 +16,7 @@ struct OnboardingView: View {
      2 - Add Age
      3 - Add Gender
      */
-    @State var onboardingState: Int = 3
+    @State var onboardingState: Int = 0
     @State var name: String = ""
     @State var age: Double = 50
     @State var gender: [String] = []
@@ -63,7 +63,9 @@ struct OnboardingView_Previews: PreviewProvider {
 extension OnboardingView {
     
     private var bottomButton: some View {
-        Text("Sign In")
+        Text(onboardingState == 0 ? "Sign UP" :
+                onboardingState == 3 ? "Finish" :
+            "Next")
             .font(.headline)
             .foregroundColor(Color("LightPurple"))
             .frame(height: 55)
@@ -71,7 +73,7 @@ extension OnboardingView {
             .background(Color.white)
             .cornerRadius(10)
             .onTapGesture {
-                
+                handleNextButtonPressed()
             }
     }
     
@@ -161,14 +163,14 @@ extension OnboardingView {
         
         VStack(spacing: 40){
             Spacer()
-            Text(gender.count > 1 ? gender : "Select A Gender.")
+            Text("Select A Gender.")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
                 .multilineTextAlignment(.center)
             
             Picker(selection: $gender) {
-                Text("Male").tag("Male)
+                Text("Male").tag("Male")
                 Text("Female").tag("Female")
                 Text("Rather Not Say").tag("Rather Not Say")
                 
@@ -187,6 +189,20 @@ extension OnboardingView {
            Spacer()
         }
         .padding(30)
+        
+    }
+    
+}
+
+// MARK: FUNCTIONS
+
+extension OnboardingView {
+     
+    func handleNextButtonPressed() {
+        
+        withAnimation(.spring()) {
+            onboardingState += 1
+        }
         
     }
     
