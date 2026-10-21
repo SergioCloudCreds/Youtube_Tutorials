@@ -21,6 +21,10 @@ struct OnboardingView: View {
     @State var age: Double = 50
     @State var gender: [String] = []
     
+    let transition: AnyTransition = .asymmetric(
+        insertion: .move(edge: .trailing),
+        removal: .move(edge: .leading))
+    
     var body: some View {
         ZStack{
 //            content
@@ -28,12 +32,16 @@ struct OnboardingView: View {
                 switch onboardingState {
                 case 0:
                     welcomeSection
+                        .transition(transition)
                 case 1:
                     addNameSection
+                        .transition(transition)
                 case 2:
                     addAgeSection
+                        .transition(transition)
                 case 3:
                     addGenderSection
+                        .transition(transition)
                     
                 default:
                     RoundedRectangle(cornerRadius: 25)
@@ -200,10 +208,13 @@ extension OnboardingView {
      
     func handleNextButtonPressed() {
         
-        withAnimation(.spring()) {
-            onboardingState += 1
+        if onboardingState == 3 {
+            // sign in
+        } else {
+            withAnimation(.spring()) {
+                onboardingState += 1
+            }
         }
-        
     }
     
 }
