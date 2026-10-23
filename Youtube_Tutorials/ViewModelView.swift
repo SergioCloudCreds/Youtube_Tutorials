@@ -51,7 +51,7 @@ struct ViewModelView: View {
                 .bold()
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
-            NavigationStack{
+            VStack{
                 List{
                     if fruitViewModel.isLoading {
                         ProgressView()

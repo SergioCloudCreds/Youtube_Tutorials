@@ -17,7 +17,6 @@ struct OnAppearView: View {
             Text("On Appear: \(count)")
                 .padding()
                 .font(.largeTitle)
-                .fontWeight(.bold)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 
             ScrollView{

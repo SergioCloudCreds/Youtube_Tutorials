@@ -17,7 +17,6 @@ struct FrameView: View {
             .background(Color.purple)
             .frame(maxWidth: .infinity)
             .background(Color.pink)
-            .fontWeight(.black)
             .frame(height: 400)
             .background(Color.green)
             .frame(maxHeight: .infinity)

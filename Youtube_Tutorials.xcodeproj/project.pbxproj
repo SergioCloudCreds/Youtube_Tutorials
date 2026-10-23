@@ -58,6 +58,7 @@
 		49AF37D63045848D003A81A0 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF37D53045848D003A81A0 /* GridView.swift */; };
 		49B0F51D303450E8007AAE2E /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0F51C303450E8007AAE2E /* ImagesView.swift */; };
 		49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0F51E303454C9007AAE2E /* FrameView.swift */; };
+		49B9349D308B705E00D86C2C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9349C308B705E00D86C2C /* AsyncImageView.swift */; };
 		49BD7103306D586A0029BEBE /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7102306D586A0029BEBE /* AppStorageView.swift */; };
 		49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */; };
 		49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1F8F13023C1790003C1A2 /* ContentView.swift */; };
@@ -119,6 +120,7 @@
 		49AF37D53045848D003A81A0 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		49B0F51C303450E8007AAE2E /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		49B0F51E303454C9007AAE2E /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		49B9349C308B705E00D86C2C /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		49BD7102306D586A0029BEBE /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		49D1F8EC3023C1790003C1A2 /* Youtube_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D1F8EF3023C1790003C1A2 /* Youtube_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_TutorialsApp.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				4970D6DA30667185009EFF9F /* EnvironmentObject.swift */,
 				49BD7102306D586A0029BEBE /* AppStorageView.swift */,
 				499F082C3074F1BD005E31F2 /* OnboardingViews */,
+				49B9349C308B705E00D86C2C /* AsyncImageView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -360,6 +363,7 @@
 				4908C8E63034E7C600A3D11F /* PaddingView.swift in Sources */,
 				499AC1D63059478E00DB9DC1 /* SheetsView.swift in Sources */,
 				49ED1F9330499450009A1552 /* ButtonsView.swift in Sources */,
+				49B9349D308B705E00D86C2C /* AsyncImageView.swift in Sources */,
 				4909C49230611FC500F9DB72 /* ViewModelView.swift in Sources */,
 				496B576430586FC10030C0D4 /* ConditionalView.swift in Sources */,
 				49622148305BD201008EA471 /* PickerView.swift in Sources */,
@@ -498,6 +502,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,6 +531,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
