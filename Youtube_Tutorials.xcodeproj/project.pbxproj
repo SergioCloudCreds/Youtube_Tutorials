@@ -66,6 +66,23 @@
 		49D1F8F73023C17D0003C1A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1F8F63023C17D0003C1A2 /* Preview Assets.xcassets */; };
 		49ED1F91304991BF009A1552 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED1F90304991BF009A1552 /* SafeAreaView.swift */; };
 		49ED1F9330499450009A1552 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED1F9230499450009A1552 /* ButtonsView.swift */; };
+		49EFDE38308F714800BB7768 /* TextSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE37308F714800BB7768 /* TextSelectionView.swift */; };
+		49EFDE3A308F726100BB7768 /* ButtonStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE39308F726100BB7768 /* ButtonStylesView.swift */; };
+		49EFDE3C308F779800BB7768 /* ListSwipeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE3B308F779800BB7768 /* ListSwipeActionView.swift */; };
+		49EFDE4030907EC200BB7768 /* FocusStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE3F30907EC200BB7768 /* FocusStateView.swift */; };
+		49EFDE423090CD3D00BB7768 /* SumbmitTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE413090CD3D00BB7768 /* SumbmitTextFieldView.swift */; };
+		49EFDE443090D6EA00BB7768 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE433090D6EA00BB7768 /* NavigationStackView.swift */; };
+		49EFDE463090EDDB00BB7768 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE453090EDDB00BB7768 /* ToolbarView.swift */; };
+		49EFDE483090F14E00BB7768 /* ResizeableSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE473090F14E00BB7768 /* ResizeableSheetView.swift */; };
+		49EFDE4A3090FB2E00BB7768 /* SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE493090FB2E00BB7768 /* SafeAreaInset.swift */; };
+		49EFDE4C3090FD7100BB7768 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE4B3090FD7100BB7768 /* GroupView.swift */; };
+		49EFDE4E3090FEFA00BB7768 /* AnimationUpdatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE4D3090FEFA00BB7768 /* AnimationUpdatedView.swift */; };
+		49EFDE503091E36500BB7768 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE4F3091E36500BB7768 /* MenuView.swift */; };
+		49EFDE523091E41F00BB7768 /* NativePopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE513091E41F00BB7768 /* NativePopoverView.swift */; };
+		49EFDE543091EB6800BB7768 /* AnylayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE533091EB6800BB7768 /* AnylayoutView.swift */; };
+		49EFDE563091F06A00BB7768 /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE553091F06A00BB7768 /* ViewThatFitsView.swift */; };
+		49EFDE583091F38700BB7768 /* GridBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE573091F38700BB7768 /* GridBootcampView.swift */; };
+		49EFDE5A3091F8C000BB7768 /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDE593091F8C000BB7768 /* ControlGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +146,23 @@
 		49D1F8F63023C17D0003C1A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49ED1F90304991BF009A1552 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
 		49ED1F9230499450009A1552 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		49EFDE37308F714800BB7768 /* TextSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionView.swift; sourceTree = "<group>"; };
+		49EFDE39308F726100BB7768 /* ButtonStylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesView.swift; sourceTree = "<group>"; };
+		49EFDE3B308F779800BB7768 /* ListSwipeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionView.swift; sourceTree = "<group>"; };
+		49EFDE3F30907EC200BB7768 /* FocusStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateView.swift; sourceTree = "<group>"; };
+		49EFDE413090CD3D00BB7768 /* SumbmitTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumbmitTextFieldView.swift; sourceTree = "<group>"; };
+		49EFDE433090D6EA00BB7768 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		49EFDE453090EDDB00BB7768 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		49EFDE473090F14E00BB7768 /* ResizeableSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeableSheetView.swift; sourceTree = "<group>"; };
+		49EFDE493090FB2E00BB7768 /* SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInset.swift; sourceTree = "<group>"; };
+		49EFDE4B3090FD7100BB7768 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		49EFDE4D3090FEFA00BB7768 /* AnimationUpdatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUpdatedView.swift; sourceTree = "<group>"; };
+		49EFDE4F3091E36500BB7768 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		49EFDE513091E41F00BB7768 /* NativePopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverView.swift; sourceTree = "<group>"; };
+		49EFDE533091EB6800BB7768 /* AnylayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnylayoutView.swift; sourceTree = "<group>"; };
+		49EFDE553091F06A00BB7768 /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
+		49EFDE573091F38700BB7768 /* GridBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcampView.swift; sourceTree = "<group>"; };
+		49EFDE593091F8C000BB7768 /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +260,23 @@
 				49BD7102306D586A0029BEBE /* AppStorageView.swift */,
 				499F082C3074F1BD005E31F2 /* OnboardingViews */,
 				49B9349C308B705E00D86C2C /* AsyncImageView.swift */,
+				49EFDE37308F714800BB7768 /* TextSelectionView.swift */,
+				49EFDE39308F726100BB7768 /* ButtonStylesView.swift */,
+				49EFDE3B308F779800BB7768 /* ListSwipeActionView.swift */,
+				49EFDE3F30907EC200BB7768 /* FocusStateView.swift */,
+				49EFDE413090CD3D00BB7768 /* SumbmitTextFieldView.swift */,
+				49EFDE433090D6EA00BB7768 /* NavigationStackView.swift */,
+				49EFDE453090EDDB00BB7768 /* ToolbarView.swift */,
+				49EFDE473090F14E00BB7768 /* ResizeableSheetView.swift */,
+				49EFDE493090FB2E00BB7768 /* SafeAreaInset.swift */,
+				49EFDE4B3090FD7100BB7768 /* GroupView.swift */,
+				49EFDE4D3090FEFA00BB7768 /* AnimationUpdatedView.swift */,
+				49EFDE4F3091E36500BB7768 /* MenuView.swift */,
+				49EFDE513091E41F00BB7768 /* NativePopoverView.swift */,
+				49EFDE533091EB6800BB7768 /* AnylayoutView.swift */,
+				49EFDE553091F06A00BB7768 /* ViewThatFitsView.swift */,
+				49EFDE573091F38700BB7768 /* GridBootcampView.swift */,
+				49EFDE593091F8C000BB7768 /* ControlGroupView.swift */,
 				49D1F8F33023C17D0003C1A2 /* Assets.xcassets */,
 				49D1F8F53023C17D0003C1A2 /* Preview Content */,
 			);
@@ -310,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EFDE483090F14E00BB7768 /* ResizeableSheetView.swift in Sources */,
 				4925350E305A8D3000E5D6C0 /* ListView.swift in Sources */,
 				4968963E305D6C8600A39099 /* IfLetGuardView.swift in Sources */,
 				49A6ED8D3057E6820081FC05 /* ExtractSubViewsView.swift in Sources */,
@@ -318,9 +370,11 @@
 				49622150305C1E59008EA471 /* SliderView.swift in Sources */,
 				4962214E305C1A1E008EA471 /* StepperView.swift in Sources */,
 				499AC1D43059436900DB9DC1 /* TransitonView.swift in Sources */,
+				49EFDE38308F714800BB7768 /* TextSelectionView.swift in Sources */,
 				496B576630589A410030C0D4 /* TernaryView.swift in Sources */,
 				49253514305AC08C00E5D6C0 /* ContextMenuView.swift in Sources */,
 				49345C163053F806002687EC /* StateView.swift in Sources */,
+				49EFDE583091F38700BB7768 /* GridBootcampView.swift in Sources */,
 				496EE2C430338C890097DFCB /* IconsView.swift in Sources */,
 				49689638305D298100A39099 /* DarkModeView.swift in Sources */,
 				49689640305D740E00A39099 /* TapGestureView.swift in Sources */,
@@ -328,11 +382,15 @@
 				49689642305D797000A39099 /* CustomModelsView.swift in Sources */,
 				499AC1D23059384C00DB9DC1 /* AnimationTimingView.swift in Sources */,
 				4906B317303D9BD0007E0E22 /* ScrollViewView.swift in Sources */,
+				49EFDE443090D6EA00BB7768 /* NavigationStackView.swift in Sources */,
 				49A6ED8F3057F58E0081FC05 /* BindingView.swift in Sources */,
 				49A6ED8B3057DF480081FC05 /* ExtractedFunctionsView.swift in Sources */,
+				49EFDE4A3090FB2E00BB7768 /* SafeAreaInset.swift in Sources */,
+				49EFDE3C308F779800BB7768 /* ListSwipeActionView.swift in Sources */,
 				496F96E5303301F4002C87F7 /* ColorsView.swift in Sources */,
 				49253510305A99B200E5D6C0 /* AlertView.swift in Sources */,
 				4962214C305BE744008EA471 /* DatePickerView.swift in Sources */,
+				49EFDE463090EDDB00BB7768 /* ToolbarView.swift in Sources */,
 				499F082E3074F1F0005E31F2 /* IntroView.swift in Sources */,
 				4920C48C302CB22500C82A55 /* TextView.swift in Sources */,
 				4906B315303D8BA8007E0E22 /* ForEachView.swift in Sources */,
@@ -341,6 +399,7 @@
 				49622152305C231A008EA471 /* TabView.swift in Sources */,
 				49D1F8F23023C1790003C1A2 /* ContentView.swift in Sources */,
 				4908C8E23034991D00A3D11F /* StacksView.swift in Sources */,
+				49EFDE5A3091F8C000BB7768 /* ControlGroupView.swift in Sources */,
 				49AF37D63045848D003A81A0 /* GridView.swift in Sources */,
 				4925350C305A7C5A00E5D6C0 /* NavigationView.swift in Sources */,
 				4925350A3059D87900E5D6C0 /* PopoverView.swift in Sources */,
@@ -348,25 +407,34 @@
 				49253512305AB44C00E5D6C0 /* ActionSheetView.swift in Sources */,
 				4920C48E3032E4B900C82A55 /* ShapeView.swift in Sources */,
 				496B576830589D360030C0D4 /* AnimationView.swift in Sources */,
+				49EFDE3A308F726100BB7768 /* ButtonStylesView.swift in Sources */,
 				49253516305AC64500E5D6C0 /* TextFieldView.swift in Sources */,
+				49EFDE503091E36500BB7768 /* MenuView.swift in Sources */,
+				49EFDE523091E41F00BB7768 /* NativePopoverView.swift in Sources */,
 				49B0F51F303454C9007AAE2E /* FrameView.swift in Sources */,
 				499F08323074F622005E31F2 /* ProfileView.swift in Sources */,
 				4968963C305D41D000A39099 /* OnAppearView.swift in Sources */,
 				49BD7103306D586A0029BEBE /* AppStorageView.swift in Sources */,
 				49D1F8F03023C1790003C1A2 /* Youtube_TutorialsApp.swift in Sources */,
 				499F08303074F613005E31F2 /* OnboardingView.swift in Sources */,
+				49EFDE563091F06A00BB7768 /* ViewThatFitsView.swift in Sources */,
+				49EFDE543091EB6800BB7768 /* AnylayoutView.swift in Sources */,
 				49253518305B27C600E5D6C0 /* TextEditiorView.swift in Sources */,
 				4970D6DB30667185009EFF9F /* EnvironmentObject.swift in Sources */,
 				496437A030362D4800DB8B2C /* InitializerView.swift in Sources */,
 				4908C8E030348C1400A3D11F /* BackgroundAndOverlayView.swift in Sources */,
+				49EFDE423090CD3D00BB7768 /* SumbmitTextFieldView.swift in Sources */,
 				49ED1F91304991BF009A1552 /* SafeAreaView.swift in Sources */,
 				4908C8E63034E7C600A3D11F /* PaddingView.swift in Sources */,
+				49EFDE4030907EC200BB7768 /* FocusStateView.swift in Sources */,
 				499AC1D63059478E00DB9DC1 /* SheetsView.swift in Sources */,
 				49ED1F9330499450009A1552 /* ButtonsView.swift in Sources */,
 				49B9349D308B705E00D86C2C /* AsyncImageView.swift in Sources */,
 				4909C49230611FC500F9DB72 /* ViewModelView.swift in Sources */,
+				49EFDE4C3090FD7100BB7768 /* GroupView.swift in Sources */,
 				496B576430586FC10030C0D4 /* ConditionalView.swift in Sources */,
 				49622148305BD201008EA471 /* PickerView.swift in Sources */,
+				49EFDE4E3090FEFA00BB7768 /* AnimationUpdatedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +570,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +599,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
